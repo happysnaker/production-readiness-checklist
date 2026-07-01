@@ -184,3 +184,9 @@ If you have a checklist item that has repeatedly prevented incidents on your tea
 If this checklist saved your team time during a launch review or release prep, you can support ongoing maintenance here:
 
 - [Support page](https://happysnaker.github.io/support/)
+
+Typical support fit:
+
+- **¥9.9** — if one section caught a release risk
+- **¥19.9** — if it helped a real launch review or handoff
+- **¥99** — if you want lightweight async feedback on a release checklist, public repo README, or technical profile packaging
