@@ -1,8 +1,11 @@
 # production-readiness-checklist
 
+[![Stars](https://img.shields.io/github/stars/happysnaker/production-readiness-checklist?style=social)](https://github.com/happysnaker/production-readiness-checklist/stargazers)
+[![Support](https://img.shields.io/badge/support-WeChat%20%26%20Alipay-7aa2ff)](https://happysnaker.github.io/support/)
+
 A practical production readiness checklist for backend services, release reviews, launch gates, and on-call handoffs.
 
-This repository is meant to be a **copy-pasteable, implementation-minded checklist** for engineers shipping real services — not a vague essay about "best practices".
+This repository is meant to be a **copy-pasteable, implementation-minded checklist** for engineers shipping real services — not a vague essay about “best practices”.
 
 Use it before:
 - first production launch
@@ -11,6 +14,14 @@ Use it before:
 - service ownership handoffs
 - on-call rotations
 - design / go-live reviews
+
+## Why people star / share this repo
+
+- it is short enough to use in a real launch review
+- it focuses on release risk, rollback, observability, and ownership instead of generic platitudes
+- it now includes ready-to-copy templates for release reviews, launch gates, and on-call handoffs
+
+If this repo is useful, please **star it**, share it with your team, and consider supporting ongoing updates on the [support page](https://happysnaker.github.io/support/).
 
 ## Who this is for
 
@@ -22,10 +33,21 @@ Use it before:
 
 ## How to use it
 
-1. Copy the sections relevant to your service into your release doc, PR template, or launch checklist.
-2. Mark each item as **done / not applicable / follow-up required**.
-3. Treat unchecked items as explicit risk, not invisible debt.
-4. Re-run the checklist after major infra, data, or traffic changes.
+1. Start with the README checklist sections relevant to your service.
+2. Copy one of the ready-made templates from [`docs/`](./docs/) into your release doc, PR template, or handoff note.
+3. Mark each item as **done / not applicable / follow-up required**.
+4. Treat unchecked items as explicit risk, not invisible debt.
+5. Re-run the checklist after major infra, data, or traffic changes.
+
+### Fastest way to use this repo
+
+If you do not want to overthink it:
+
+1. copy [`docs/release-review-template.md`](./docs/release-review-template.md)
+2. fill in only the service-specific details
+3. walk through the checklist sections below
+4. turn every unchecked item into a named risk, owner, or follow-up
+5. repeat before any high-risk deploy, migration, or ownership handoff
 
 ---
 
@@ -155,6 +177,24 @@ Before shipping, can the team answer **yes** to these?
 
 ---
 
+## Copy-paste templates
+
+If you want something more actionable than a bare checklist, start here:
+
+- [`docs/release-review-template.md`](./docs/release-review-template.md) — structured release review doc for risky changes, migrations, and go-live reviews
+- [`docs/launch-gate-template.md`](./docs/launch-gate-template.md) — lightweight go / no-go template with rollback owner, abort criteria, and launch signals
+- [`docs/oncall-handoff-template.md`](./docs/oncall-handoff-template.md) — handoff note for service ownership changes and on-call rotations
+
+These are designed to be copied directly into:
+
+- Notion / Docs
+- PR descriptions
+- release checklists
+- go-live review notes
+- team handoff documents
+
+---
+
 ## Common failure patterns this checklist is trying to catch
 
 - health checks that lie
@@ -172,12 +212,13 @@ Before shipping, can the team answer **yes** to these?
 - [system-design-checklist](https://github.com/happysnaker/system-design-checklist) — architecture and design-review oriented checklist
 - [go-service-starter](https://github.com/happysnaker/go-service-starter) — minimal production-minded Go HTTP service starter
 - [go-http-middleware-kit](https://github.com/happysnaker/go-http-middleware-kit) — reusable `net/http` middleware for operational basics
+- [github-profile-checklist](https://github.com/happysnaker/github-profile-checklist) — practical GitHub packaging checklist for stronger public proof-of-work
 
 ## Contributing
 
 Suggestions are welcome, especially if they come from real launch reviews, incident retrospectives, or production hardening work.
 
-If you have a checklist item that has repeatedly prevented incidents on your team, open an issue or PR.
+If you have a checklist item or template that has repeatedly prevented incidents on your team, open an issue or PR.
 
 ## Support
 
@@ -190,3 +231,13 @@ Typical support fit:
 - **¥9.9** — if one section caught a release risk
 - **¥19.9** — if it helped a real launch review or handoff
 - **¥99** — if you want lightweight async feedback on a release checklist, public repo README, or technical profile packaging
+
+Best fit for the **¥99** async review:
+
+- one public repo README that needs stronger engineering positioning
+- one production / launch checklist that feels too vague
+- one GitHub profile that needs clearer backend / infra proof-of-work ordering
+
+## License
+
+MIT
