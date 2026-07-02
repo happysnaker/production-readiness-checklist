@@ -235,6 +235,8 @@ Typical support fit:
 
 - **¥9.9** — if one section caught a release risk
 - **¥19.9** — if it helped a real launch review or handoff
+- **best payment note** — `production-readiness-checklist`
+- **fastest path** — tip directly if the checklist helped; use **¥29.9** / **¥99** only if you want feedback back
 - **¥99** — if you want lightweight async feedback on a release checklist, public repo README, or technical profile packaging
 
 Best fit for the **¥99** async review:
