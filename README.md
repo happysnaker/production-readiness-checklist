@@ -238,6 +238,7 @@ If you have a checklist item or template that has repeatedly prevented incidents
 If this checklist saved your team time during a launch review or release prep, you can support ongoing maintenance here:
 
 - [Support page](https://happysnaker.github.io/support/#from-production-readiness-checklist)
+- [Shortest support thread](https://github.com/happysnaker/production-readiness-checklist/discussions/1)
 
 Typical support fit:
 
