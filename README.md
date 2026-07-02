@@ -1,7 +1,7 @@
 # production-readiness-checklist
 
 [![Stars](https://img.shields.io/github/stars/happysnaker/production-readiness-checklist?style=social)](https://github.com/happysnaker/production-readiness-checklist/stargazers)
-[![Support](https://img.shields.io/badge/support-WeChat%20%26%20Alipay-7aa2ff)](https://happysnaker.github.io/support/)
+[![Support](https://img.shields.io/badge/support-WeChat%20%26%20Alipay-7aa2ff)](https://happysnaker.github.io/support/#from-production-readiness-checklist)
 [![Async Review](https://img.shields.io/badge/review-Quick%20read%20%2F%20async-9b87f5)](https://happysnaker.github.io/review/)
 
 A practical production readiness checklist for backend services, release reviews, launch gates, and on-call handoffs.
@@ -28,7 +28,7 @@ Use it before:
 - it focuses on release risk, rollback, observability, and ownership instead of generic platitudes
 - it now includes ready-to-copy templates for release reviews, launch gates, and on-call handoffs
 
-If this repo is useful, please **star it**, share it with your team, and consider supporting ongoing updates on the [support page](https://happysnaker.github.io/support/).
+If this repo is useful, please **star it**, share it with your team, and consider supporting ongoing updates on the [support page](https://happysnaker.github.io/support/#from-production-readiness-checklist).
 
 ## Who this is for
 
@@ -231,7 +231,7 @@ If you have a checklist item or template that has repeatedly prevented incidents
 
 If this checklist saved your team time during a launch review or release prep, you can support ongoing maintenance here:
 
-- [Support page](https://happysnaker.github.io/support/)
+- [Support page](https://happysnaker.github.io/support/#from-production-readiness-checklist)
 
 Typical support fit:
 
