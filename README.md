@@ -20,6 +20,8 @@ Use it before:
 - on-call rotations
 - design / go-live reviews
 
+- Project page: [happysnaker.github.io/production-readiness-checklist](https://happysnaker.github.io/production-readiness-checklist/)
+
 ## Why people star / share this repo
 
 - it is short enough to use in a real launch review
