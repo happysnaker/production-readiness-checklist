@@ -1,12 +1,15 @@
 # production-readiness-checklist
 
 [![Stars](https://img.shields.io/github/stars/happysnaker/production-readiness-checklist?style=social)](https://github.com/happysnaker/production-readiness-checklist/stargazers)
+[![Project Page](https://img.shields.io/badge/project-page-7aa2ff)](https://happysnaker.github.io/production-readiness-checklist/)
 [![Support](https://img.shields.io/badge/support-WeChat%20%26%20Alipay-7aa2ff)](https://happysnaker.github.io/support/#from-production-readiness-checklist)
 [![Async Review](https://img.shields.io/badge/review-Quick%20read%20%2F%20async-9b87f5)](https://happysnaker.github.io/review/)
 
 A practical production readiness checklist for backend services, release reviews, launch gates, and on-call handoffs.
 
 This repository is meant to be a **copy-pasteable, implementation-minded checklist** for engineers shipping real services — not a vague essay about “best practices”.
+
+- Project page: [happysnaker.github.io/production-readiness-checklist](https://happysnaker.github.io/production-readiness-checklist/)
 
 > Want a version you can tailor for your own team, service, or launch checklist? Click **Use this template** on GitHub and generate your own working copy.
 >
