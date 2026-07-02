@@ -14,6 +14,8 @@ This repository is meant to be a **copy-pasteable, implementation-minded checkli
 > Want a version you can tailor for your own team, service, or launch checklist? Click **Use this template** on GitHub and generate your own working copy.
 >
 > If you want a compact async pass on one public GitHub / README / launch-checklist page instead of guessing what feels weak, I offer a **¥29.9 quick read** and a **¥99 async pass** on the [review page](https://happysnaker.github.io/review/).
+>
+> If you already paid and just want the shortest path, open one of these and send the link: [¥29.9 quick read](mailto:happysnaker@foxmail.com?subject=Quick%20read%20%7C%20launch%20checklist%20or%20repo%20link&body=Public%20link%3A%0ATarget%20role%20(optional)%3A%0AWhat%20feels%20weak%3A%20launch%20checklist%20/%20README%20/%20GitHub%0APayment%20screenshot%3A%20attached) · [¥99 async review](mailto:happysnaker@foxmail.com?subject=Async%20review%20%7C%20service%20repo%20or%20launch%20page%20link&body=Public%20link(s)%3A%0ATarget%20role%20or%20use%20case%3A%0AWhat%20feels%20weak%3A%20launch%20checklist%20/%20README%20/%20GitHub%0APayment%20screenshot%3A%20attached)
 
 Use it before:
 - first production launch
