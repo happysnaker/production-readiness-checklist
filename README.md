@@ -36,6 +36,8 @@ Use it before:
 
 If this repo is useful, please **star it**, share it with your team, and consider supporting ongoing updates on the [support page](https://happysnaker.github.io/support/#from-production-readiness-checklist).
 
+Current cross-project sponsor brief: [Sponsor one-pager](https://github.com/happysnaker/happysnaker/releases/tag/v2026.07-sponsor-one-pager).
+
 ## Who this is for
 
 - backend engineers
