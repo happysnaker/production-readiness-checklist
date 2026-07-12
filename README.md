@@ -13,12 +13,15 @@ This repository is meant to be a **copy-pasteable, implementation-minded checkli
 - Project page: [happysnaker.github.io/production-readiness-checklist](https://happysnaker.github.io/production-readiness-checklist/)
 - Proof before payment: [support/#proof-before-payment](https://happysnaker.github.io/support/#proof-before-payment)
 - 10-second support router: [support/#sponsor-router](https://happysnaker.github.io/support/#sponsor-router)
+- Sponsor prospect pipeline: [docs/sponsor-prospect-pipeline.md](https://github.com/happysnaker/happysnaker/blob/master/docs/sponsor-prospect-pipeline.md) — route launch-checklist / service-readiness customers to the right proof, CTA, support note, and guardrail before paying or asking for review
 
 > Want a version you can tailor for your own team, service, or launch checklist? Click **Use this template** on GitHub and generate your own working copy.
 >
 > If you want a compact async pass on one public GitHub / README / launch-checklist page instead of guessing what feels weak, I offer a **¥29.9 quick read** and a **¥99 async pass** on the [review page](https://happysnaker.github.io/review/).
 >
 > If you already paid and just want the shortest path, open one of these and send the link: [¥29.9 quick read](mailto:happysnaker@foxmail.com?subject=Quick%20read%20%7C%20launch%20checklist%20or%20repo%20link&body=Public%20link%3A%0ATarget%20role%20(optional)%3A%0AWhat%20feels%20weak%3A%20launch%20checklist%20/%20README%20/%20GitHub%0APayment%20screenshot%3A%20attach%20privately%20by%20email%20only%2C%20never%20in%20public%20issues) · [¥99 async review](mailto:happysnaker@foxmail.com?subject=Async%20review%20%7C%20service%20repo%20or%20launch%20page%20link&body=Public%20link(s)%3A%0ATarget%20role%20or%20use%20case%3A%0AWhat%20feels%20weak%3A%20launch%20checklist%20/%20README%20/%20GitHub%0APayment%20screenshot%3A%20attach%20privately%20by%20email%20only%2C%20never%20in%20public%20issues)
+>
+> Route launch-checklist / service-readiness customers through the sponsor prospect pipeline first so the ask maps to proof, CTA, support note, and guardrail before payment.
 >
 > Public issue privacy guardrail: do not paste private logs, credentials, QR codes, payment screenshots, internal URLs, or raw live integration output in public issues; use the intake replies first.
 
