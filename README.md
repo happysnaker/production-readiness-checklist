@@ -3,25 +3,15 @@
 [![Stars](https://img.shields.io/github/stars/happysnaker/production-readiness-checklist?style=social)](https://github.com/happysnaker/production-readiness-checklist/stargazers)
 [![Use this template](https://img.shields.io/badge/use%20this-template-62d2a2)](https://github.com/happysnaker/production-readiness-checklist/generate)
 [![Project Page](https://img.shields.io/badge/project-page-7aa2ff)](https://happysnaker.github.io/production-readiness-checklist/)
-[![Support](https://img.shields.io/badge/support-WeChat%20%26%20Alipay-7aa2ff)](https://happysnaker.github.io/support/#from-production-readiness-checklist)
-[![Async Review](https://img.shields.io/badge/review-Quick%20read%20%2F%20async-9b87f5)](https://happysnaker.github.io/review/)
-
 A practical production readiness checklist for backend services, release reviews, launch gates, and on-call handoffs.
 
 This repository is meant to be a **copy-pasteable, implementation-minded checklist** for engineers shipping real services — not a vague essay about “best practices”.
 
 - Project page: [happysnaker.github.io/production-readiness-checklist](https://happysnaker.github.io/production-readiness-checklist/)
-- Proof before payment: [support/#proof-before-payment](https://happysnaker.github.io/support/#proof-before-payment)
-- 10-second support router: [support/#sponsor-router](https://happysnaker.github.io/support/#sponsor-router)
-- Sponsor prospect pipeline: [docs/sponsor-prospect-pipeline.md](https://github.com/happysnaker/happysnaker/blob/master/docs/sponsor-prospect-pipeline.md) — route launch-checklist / service-readiness customers to the right proof, CTA, support note, and guardrail before paying or asking for review
-
 > Want a version you can tailor for your own team, service, or launch checklist? Click **Use this template** on GitHub and generate your own working copy.
 >
-> If you want a compact async pass on one public GitHub / README / launch-checklist page instead of guessing what feels weak, I offer a **¥29.9 quick read** and a **¥99 async pass** on the [review page](https://happysnaker.github.io/review/).
 >
-> If you already paid and just want the shortest path, open one of these and send the link: [¥29.9 quick read](mailto:happysnaker@foxmail.com?subject=Quick%20read%20%7C%20launch%20checklist%20or%20repo%20link&body=Public%20link%3A%0ATarget%20role%20(optional)%3A%0AWhat%20feels%20weak%3A%20launch%20checklist%20/%20README%20/%20GitHub%0APayment%20screenshot%3A%20attach%20privately%20by%20email%20only%2C%20never%20in%20public%20issues) · [¥99 async review](mailto:happysnaker@foxmail.com?subject=Async%20review%20%7C%20service%20repo%20or%20launch%20page%20link&body=Public%20link(s)%3A%0ATarget%20role%20or%20use%20case%3A%0AWhat%20feels%20weak%3A%20launch%20checklist%20/%20README%20/%20GitHub%0APayment%20screenshot%3A%20attach%20privately%20by%20email%20only%2C%20never%20in%20public%20issues)
 >
-> Route launch-checklist / service-readiness customers through the sponsor prospect pipeline first so the ask maps to proof, CTA, support note, and guardrail before payment. Then use the [sponsor conversion scorecard](https://github.com/happysnaker/happysnaker/blob/master/docs/sponsor-conversion-scorecard.md) to classify Hot / Warm / Nurture / No-send before asking for support or paid review.
 >
 > Public issue privacy guardrail: do not paste private logs, credentials, QR codes, payment screenshots, internal URLs, or raw live integration output in public issues; use the intake replies first.
 
@@ -40,12 +30,6 @@ Use it before:
 - it is short enough to use in a real launch review
 - it focuses on release risk, rollback, observability, and ownership instead of generic platitudes
 - it now includes ready-to-copy templates for release reviews, launch gates, and on-call handoffs
-
-If this repo is useful, please **star it**, share it with your team, and consider supporting ongoing updates on the [support page](https://happysnaker.github.io/support/#from-production-readiness-checklist).
-
-Current cross-project sponsor brief: [Sponsor one-pager](https://github.com/happysnaker/happysnaker/releases/tag/v2026.07-sponsor-one-pager).
-
-Sponsor / paid-support intake replies: [share-kit intake replies](https://github.com/happysnaker/happysnaker/blob/master/docs/share-kit.md#sponsor--paid-support-intake-replies). Preview before paying: [deploy-read sample](https://happysnaker.github.io/review/deploy-read-sample/). Scorecard before asking: [Hot / Warm / Nurture / No-send](https://github.com/happysnaker/happysnaker/blob/master/docs/sponsor-conversion-scorecard.md).
 
 ## Who this is for
 
@@ -248,19 +232,11 @@ If you have a checklist item or template that has repeatedly prevented incidents
 
 If this checklist saved your team time during a launch review or release prep, you can support ongoing maintenance here:
 
-- [Support page](https://happysnaker.github.io/support/#from-production-readiness-checklist)
 - [Shortest support thread](https://github.com/happysnaker/production-readiness-checklist/discussions/1)
 
 Typical support fit:
 
-- **¥9.9** — if one section caught a release risk
-- **¥19.9** — if it helped a real launch review or handoff
 - **best payment note** — `production-readiness-checklist`
-- **fastest path** — tip directly if the checklist helped; use **¥29.9** / **¥99** only if you want feedback back
-- **¥99** — if you want lightweight async feedback on a release checklist, public repo README, or technical profile packaging
-
-Best fit for the **¥99** async review:
-
 - one public repo README that needs stronger engineering positioning
 - one production / launch checklist that feels too vague
 - one GitHub profile that needs clearer backend / infra proof-of-work ordering
